@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-from adapters.base_adapter import BaseLangAdapter
-from adapters import AdapterLangTr
+from .adapters.base_adapter import BaseLangAdapter
+from .adapters import AdapterLangTr
 
 
 class NTT:

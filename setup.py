@@ -8,19 +8,22 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="number-to-text",
-    version="0.0.1",
+    version="0.0.4",
     author="Hasan Budak",
     author_email="budak.hasan.apc@gmail.com",
     description="Helps you convert to numbers to text",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/AOF-BudakHasan/number_to_text",
-    packages=setuptools.find_packages(exclude=['tests', 'test.*'])(),
+    packages=setuptools.find_packages(exclude=['tests', 'test.*']),
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.3',
-    test_suite='tests'
+    package_dir={"number_to_text": "number_to_text"},
+    python_requires='>=3.0',
+    test_suite='tests',
+    setup_requires=['wheel'],
+    include_package_data=True
 )
