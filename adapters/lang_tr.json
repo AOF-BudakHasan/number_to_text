@@ -1,0 +1,16 @@
+{
+  "zero": "SIFIR",
+  "1": ["BİR", "ON"],
+  "2": ["İKİ", "YİRMİ"],
+  "3": ["ÜÇ", "OTUZ"],
+  "4": ["DÖRT", "KIRK"],
+  "5": ["BEŞ", "ELLİ"],
+  "6": ["ALTI", "ALTMIŞ"],
+  "7": ["YEDİ", "YETMİŞ"],
+  "8": ["SEKİZ", "SEKSEN"],
+  "9": ["DOKUZ", "DOKSAN"],
+  "names": ["YÜZ", "BİN", "MİLYON", "MİLYAR", "TRİLYON", "KATRİLYON", "KENTİLYON"],
+  "currency_decimal_title": "KURUŞ",
+  "currency_title": "LİRA",
+  "currency_symbol": "₺"
+}
